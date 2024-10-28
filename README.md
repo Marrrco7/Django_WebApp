@@ -30,7 +30,7 @@ Features
 - **User Authentication**: Secure login and logout functionalities.
 - **Permissions**: Restrict access to certain views based on user permissions.
 - **Responsive Design**: User interface built with Bootstrap for responsiveness.
-- **Search and Filter**: *(Optional feature)* Search games by title, genre, etc.
+
 
 Analysis and Design
 -------------------
