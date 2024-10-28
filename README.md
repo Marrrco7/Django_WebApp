@@ -1,9 +1,8 @@
-THREADING LABS VIDEO GAME CATALOG MANAGEMENT SYSTEM
 
 Overview
 --------
 
-Threading Labs aims to revolutionize how it manages and showcases its collection of video games. This project is a dynamic web application developed using Django, allowing for easy addition, update, display, and deletion of game information. The application integrates with a PostgreSQL database to efficiently store and retrieve game data.
+This project is a dynamic web application developed using Django, allowing for easy addition, update, display, and deletion of game information. The application integrates with a PostgreSQL database to efficiently store and retrieve game data.
 
 Table of Contents
 -----------------
@@ -86,7 +85,16 @@ A PostgreSQL database is used to store game information.
    - `genre_id`: Foreign key referencing `Genre`
 
 ### User Interface Design
+ **Base Template**: Includes navigation and common UI elements.
+- **Videogame List**: Displays a table of all video games with options to edit or delete.
+- **Videogame Form**: Form for adding or editing a video game.
+- **Authentication Pages**: Login and logout pages.
 
+**Design Elements**:
+
+- **Bootstrap 4.3.1**: Used for responsive design and styling (includes the jumbotron component).
+- **Font Awesome 6.6.0**: Provides icons for buttons and actions.
+- **Jumbotron Component**: Used for the header section in the base template.
 - **Base Template**: Includes navigation and common UI elements.
 - **Videogame List**: Displays a table of all video games with options to edit or delete.
-- **Videogame Form**: Form for adding or 
+- **Videogame Form**: Form for adding, deleting or updating videogames
