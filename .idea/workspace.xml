@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="543ec0da-1819-4fe5-bd90-e3ffdb92fc1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Videogames_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videogames_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videogames_project/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videogames_project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videogames_project/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videogames_project/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_waitress_server.py" afterDir="false" />
+    <list default="true" id="543ec0da-1819-4fe5-bd90-e3ffdb92fc1d" name="Changes" comment="Added project files">
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/autocomplete.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/base.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/changelists.css" afterDir="false" />
@@ -148,20 +132,8 @@
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/templates/videogames_register/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/templates/videogames_register/videogame_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/templates/videogames_register/videogame_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videogames_register/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videogames_register/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/videogames_register/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,8 +219,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730029466445</updated>
-      <workItem from="1730029468681" duration="25713000" />
+      <workItem from="1730029468681" duration="26730000" />
     </task>
+    <task id="LOCAL-00001" summary="Added project files">
+      <option name="closed" value="true" />
+      <created>1730143203680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730143203681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,5 +237,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added project files" />
   </component>
 </project>

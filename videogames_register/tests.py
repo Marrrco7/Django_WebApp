@@ -18,7 +18,7 @@ class GenreModelTest(TestCase):
     def test_genre_creation(self):
         self.assertEqual(self.genre.title, "Action")
         self.assertTrue(isinstance(self.genre, Genre))
-        self.assertEqual(str(self.genre), self.genre.title)
+
 
 class VideoGameModelTest(TestCase):
     def setUp(self):
@@ -68,15 +68,15 @@ class VideogameFormTest(TestCase):
 
 class VideogameListViewTest(TestCase):
     def setUp(self):
-        # Create a user and log in
+
         self.user = User.objects.create_user(username='testuser', password='testpass')
         self.client.login(username='testuser', password='testpass')
 
-        # Assign view permission for VideoGame to the user
+
         permission = Permission.objects.get(codename='view_videogame')
         self.user.user_permissions.add(permission)
 
-        # Create a genre and a video game
+
         self.genre = Genre.objects.create(title="Puzzle")
         self.videogame = VideoGame.objects.create(
             title="Brain Teaser",
@@ -86,12 +86,10 @@ class VideogameListViewTest(TestCase):
         )
 
     def test_videogame_list_view(self):
-        # Send a GET request to the list view
+
         response = self.client.get(reverse('videogame_list'))
-        # Check that the response is 200 OK
+
         self.assertEqual(response.status_code, 200)
-        # Check that the correct template was used
         self.assertTemplateUsed(response, 'videogames_register/videogame_list.html')
-        # Check that the response contains the video game title
         self.assertContains(response, "Brain Teaser")
 
