@@ -39,7 +39,7 @@ Analysis and Design
 
 The architecture consists of the following components:
 
-- **Functional Web Application**: A Django web application that allows management of a video game catalog with CRUD functionalities. It defines a `VideoGame` model to represent each video game, including fields for the game's title, genre, release date, and a brief description.
+- **Functional Web Application**: A Django web application that allows management of a video game catalog with CRUD functionalities. It defines a `VideoGame model to represent each video game, including fields for the game's title, genre, release date, and a brief description.
 - **Database Integration**: Integration with a PostgreSQL database, ensuring efficient data storage and retrieval for game information.
 
 ### Functional Requirements
