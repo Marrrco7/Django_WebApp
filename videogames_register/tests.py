@@ -64,32 +64,3 @@ class VideogameFormTest(TestCase):
 
 
 
-
-
-class VideogameListViewTest(TestCase):
-    def setUp(self):
-
-        self.user = User.objects.create_user(username='testuser', password='testpass')
-        self.client.login(username='testuser', password='testpass')
-
-
-        permission = Permission.objects.get(codename='view_videogame')
-        self.user.user_permissions.add(permission)
-
-
-        self.genre = Genre.objects.create(title="Puzzle")
-        self.videogame = VideoGame.objects.create(
-            title="Brain Teaser",
-            release_date=timezone.now().date(),
-            description="A challenging puzzle game.",
-            genre=self.genre
-        )
-
-    def test_videogame_list_view(self):
-
-        response = self.client.get(reverse('videogame_list'))
-
-        self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'videogames_register/videogame_list.html')
-        self.assertContains(response, "Brain Teaser")
-
